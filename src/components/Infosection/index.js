@@ -1,10 +1,11 @@
 import React from 'react'
 import { ImgWrap, InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Img } from './InfoElements';
 import { Button } from '../ButtonElement';
+import svgOne from '../../images/svgOne.svg'
 
 
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img1, alt}) => {
     return (
         <>
           <InfoContainer lightBg={lightBg} id={id}>
@@ -22,7 +23,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <Img src={img} alt={alt} />
+                    <Img src={svgOne} alt={alt} />
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

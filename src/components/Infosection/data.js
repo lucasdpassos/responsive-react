@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'Baixe o nosso E-book e entenda como as soluções de tecnologia podem destacar o seu produto no mercado',
     buttonLabel: 'Baixar E-book',
     imgStart: false,
-    img: require('../../images/undraw2.png'),
+    img1: require('../../images/svgOne.svg'),
     alt: 'img1',
     dark: true,
     primary: true,
