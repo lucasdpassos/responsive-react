@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
          <Nav>
             <NavbarContainer>
                 <NavLogo to="/">
-                    Grip
+                    LP BlockChain
                  <MobileIcon onClick={toggle}>
                      <FaBars />
 
@@ -19,13 +19,13 @@ const Navbar = ({ toggle }) => {
                         <NavLinks to="about">Sobre</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="discover">Portfólio</NavLinks>
+                        <NavLinks to="discover">E-book</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="services">Serviços</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="contact">Contato</NavLinks>
+                        <NavLinks to="contact">Time</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>

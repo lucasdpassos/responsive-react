@@ -17,13 +17,13 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>O sonho é seu, a lógica é nossa</HeroH1>
+                <HeroH1>O mundo está online, seu dinheiro também deveria estar</HeroH1>
                 <HeroP>
-                    Agende uma consultoria e comece a aplicar tecnologias de start-up na gestão do seu produto
+                    Descubra como criptomoedas podem ser uma solução de investimento para sua empresa
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="deal" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" >
-                        Soluções de tech para minha empresa {hover ? <ArrowForward /> : <ArrowRight />}
+                        Quero investir agora  {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
